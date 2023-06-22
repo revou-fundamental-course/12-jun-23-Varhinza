@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Suhu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <H1>Konversi Suhu</H1>
+    <p>Masukkan suhu derajat Celsius (<sup>o</sup>C) / Fahrenheit (<sup>o</sup>F)
+    untuk mendapatkan hasil konversi</p>
+    <div id="order">
+        <div>
+            <label>Celsius (<sup>o</sup>C) :</label>
+            <input type="number" class="form" id="celsius" placeholder="Input Suhu....">
+        </div>
+        <div>
+            <label>Fahrenheit (<sup>o</sup>F) :</label>
+            <input type="number" class="form" id="fahrenheit" placeholder="Input Suhu....">
+        </div>
+    </div>
+    <button class="button" id="reset" onClick="reset()">Reset</button>
+    <button class="button" id="reverse" onClick="reverse()">Reverse</button>
+    
+    <label>Cara Kalkulasi</label>
+    <div class="show">
+        <p id="formula"></p>
+    </div>
+    <H2>Cara Konversi Suhu</H2>
+    <div class="break"></div>
+    <p id="explain"></p>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
